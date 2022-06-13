@@ -7,6 +7,18 @@
 
 /* global */
 
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #333;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--principal-color);
+}
+
 body {
   margin: 0;
   font-family: var(--font);
